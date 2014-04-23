@@ -1,0 +1,7 @@
+parameters:
+#    acme_restaurant.example.class: Acme\RestaurantBundle\Example
+
+services:
+#    acme_restaurant.example:
+#        class: %acme_restaurant.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

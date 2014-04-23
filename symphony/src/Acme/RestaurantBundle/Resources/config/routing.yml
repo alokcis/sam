@@ -1,0 +1,11 @@
+acme_restaurant_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeRestaurantBundle:Default:index }
+    
+acme_restaurant_feedback:
+    pattern:  /feedback
+    defaults: { _controller: AcmeRestaurantBundle:Feedback:index }
+    
+acme_restaurant_feedback_page:
+    pattern:  /page
+    defaults: { _controller: AcmeRestaurantBundle:Feedback:page }

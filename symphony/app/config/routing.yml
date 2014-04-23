@@ -1,6 +1,4 @@
-client_feedback:
-    resource: "@ClientFeedbackBundle/Resources/config/routing.yml"
+acme_store:
+    resource: "@AcmeRestaurantBundle/Resources/config/routing.yml"
     prefix:   /
-    
-
 
