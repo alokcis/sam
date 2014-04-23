@@ -1,0 +1,27 @@
+{% extends "ClientFeedbackBundle::layout.html.twig" %}
+
+{% block start_feedback %}
+
+
+<div class="row">
+       
+
+    <form action="{{ path("client_feedback_start") }}" method="post" id="login">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="billingId" name="billingId" value="" />
+        </div>
+
+        
+
+        <button type="submit" class="sf-button" name="start">
+            <span class="border-l">
+                <span class="border-r">
+                    <span class="btn-bg">Start</span>
+                </span>
+            </span>
+        </button>
+    </form>
+    </div>
+
+{% endblock %}

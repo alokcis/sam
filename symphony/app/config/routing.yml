@@ -1,0 +1,6 @@
+client_feedback:
+    resource: "@ClientFeedbackBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+
+
